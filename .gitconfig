@@ -1,0 +1,11 @@
+[color]
+    ui = auto
+[user]
+    name = Alexander Blom
+    email = me@alexanderblom.se
+[core]
+    autocrlf = input
+    editor = subl -w
+[alias]
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
