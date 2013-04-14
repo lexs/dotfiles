@@ -20,8 +20,6 @@ export ANDROID_HOME=/usr/local/Cellar/android-sdk/r21.0.1
 
 export PATH=/usr/local/sbin:$PATH
 
-export EDITOR='subl -w'
+export EDITOR='subl --new-window -wait'
 
 cdpath=(~/Documents/Development/Projects)
-
-alias subl=st

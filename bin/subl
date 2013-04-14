@@ -1,0 +1,16 @@
+#!/bin/zsh
+
+_sublime_darwin_paths=(
+    "$HOME/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"
+    "$HOME/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl"
+    "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"
+    "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl"
+)
+
+for _sublime_path in $_sublime_darwin_paths; do
+    if [[ -a $_sublime_path ]]; then
+        sublime="$_sublime_path"
+    fi
+done
+
+"$sublime" $@
