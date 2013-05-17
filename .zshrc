@@ -5,7 +5,7 @@ plugins=(git osx brew ant mvn github virtualenvwrapper sublime heroku)
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 # Private bin
 export PATH=~/bin:$PATH
